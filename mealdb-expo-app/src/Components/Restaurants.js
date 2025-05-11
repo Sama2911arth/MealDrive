@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import * as Location from 'expo-location';
 import axios from 'axios';
 
-const MAPPLE_API_KEY = "55ae2759f94cf4d48eb16f73b06e7fcf";
+const MAPPLE_API_KEY = "";
 
 const fetch_restaurants = async (latitude, longitude) => {
     const radius = 10000; // 10 km
